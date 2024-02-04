@@ -23,6 +23,7 @@ char cnpy::map_type(const std::type_info& t)
     if(t == typeid(double) ) return 'f';
     if(t == typeid(long double) ) return 'f';
 
+    if(t == typeid(int8_t)) return 'i';
     if(t == typeid(int) ) return 'i';
     if(t == typeid(char) ) return 'i';
     if(t == typeid(short) ) return 'i';
