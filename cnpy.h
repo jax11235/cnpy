@@ -13,7 +13,11 @@
 #include<typeinfo>
 #include<iostream>
 #include<cassert>
+#ifdef _WIN32 
+#include"zlib/include/zlib.h"
+#else
 #include<zlib.h>
+#endif
 #include<map>
 #include<memory>
 #include<stdint.h>

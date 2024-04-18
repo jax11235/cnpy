@@ -2,6 +2,11 @@
 //Released under MIT License
 //license available in LICENSE file, or at http://www.opensource.org/licenses/mit-license.php
 
+#ifdef _WIN32
+// if error, use absolute path
+#pragma comment(lib, "zlib/lib_release/zlibstatic.lib")
+#endif
+
 #include"cnpy.h"
 #include<complex>
 #include<cstdlib>

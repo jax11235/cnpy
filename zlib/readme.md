@@ -1,0 +1,1 @@
+lib is from: https://github.com/hzyhhzy/gomoku_nnue/tree/multiRules/nnue1/external/zlib
